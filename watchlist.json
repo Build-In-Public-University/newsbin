@@ -3,11 +3,17 @@
   "tickers": [
     {"symbol": "OPEN", "company": "Opendoor", "why": "case study 001 - operating turnaround thesis"},
     {"symbol": "AI", "company": "C3.ai", "why": "AI transformation vendor"},
-    {"symbol": "PLTR", "company": "Palantir", "why": "AI deployment at enterprise scale"},
+    {"symbol": "PLTR", "company": "Palantir", "why": "AI deployment at enterprise scale; builder vs buyer"},
     {"symbol": "MSFT", "company": "Microsoft", "why": "AI + enterprise productivity (human time saved)"},
     {"symbol": "NVDA", "company": "NVIDIA", "why": "AI infrastructure"},
     {"symbol": "CRM", "company": "Salesforce", "why": "AI agent productivity claims"},
     {"symbol": "ADBE", "company": "Adobe", "why": "generative AI in creative workflows"},
-    {"symbol": "SHOP", "company": "Shopify", "why": "SMB AI tools / human time saved"}
+    {"symbol": "SHOP", "company": "Shopify", "why": "SMB AI tools / human time saved"},
+    {"symbol": "META", "company": "Meta", "why": "builder vs buyer divide - frontier AI R&D"},
+    {"symbol": "AMZN", "company": "Amazon", "why": "AI infra + enterprise; margin expansion while scaling"},
+    {"symbol": "DIS", "company": "Disney", "why": "AI across content/ops; streaming profitability"},
+    {"symbol": "UBER", "company": "Uber", "why": "AI coding adoption vs overhead paradox"},
+    {"symbol": "PARA", "company": "Paramount Skydance", "why": "tech-led merger integration; AI cost programs"},
+    {"symbol": "ACN", "company": "Accenture", "why": "AI services/consulting; enterprise deployment"}
   ]
 }
