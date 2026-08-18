@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-08-18T11:15:39Z",
+  "ledger": "claims/ledger.jsonl",
+  "total_claims": 3,
+  "by_status": {
+    "open": 3
+  },
+  "claims": [
+    {
+      "claim_id": "CLAIM-001",
+      "statement": "Meta's operating margin will recover from 30.9% toward >=36% by end of 2026 as frontier R&D intensity stabilizes",
+      "falsifier": "Meta operating margin at 4Q26 remains <=31% or R&D stays >34% of revenue",
+      "observation_window": "2026-12-31",
+      "metrics": {
+        "margin_target": 0.36,
+        "margin_2026q2": 0.309
+      },
+      "source_items": [
+        "6762de0d39d4b4d4"
+      ],
+      "status": "open",
+      "created_at": "2026-08-18T11:13:35Z",
+      "origin": "AcadeResearch 9-company AI margin cross-section (2026-08-16)",
+      "author": "human"
+    },
+    {
+      "claim_id": "CLAIM-002",
+      "statement": "Uber's G&A plus R&D as a percentage of revenue will decline by at least 1 percentage point by end of 2026 if AI coding-tool adoption is actually compressing corporate overhead",
+      "falsifier": "Uber G&A and R&D combined remain >=14% of revenue (flat or up) at 4Q26",
+      "observation_window": "2026-12-31",
+      "metrics": {
+        "overhead_target_pct": 14.0,
+        "overhead_2026q2_pct": 13.94
+      },
+      "source_items": [
+        "48522bad9768fc95"
+      ],
+      "status": "open",
+      "created_at": "2026-08-18T11:13:35Z",
+      "origin": "AcadeResearch 9-company AI margin cross-section (2026-08-16)",
+      "author": "human"
+    },
+    {
+      "claim_id": "CLAIM-003",
+      "statement": "Across the 9-company AI cohort, the YoY operating-margin expansion is primarily explained by pre-2023 cost discipline and core operating leverage, not by AI deployment",
+      "falsifier": "Companies with the most legible AI spend (Meta's R&D step-up) also show the largest margin gain, or margin gains concentrate in firms with no AI cost program",
+      "observation_window": "2027-06-30",
+      "metrics": {
+        "cohort_margin_expansions": 8.0,
+        "cohort_size": 9.0
+      },
+      "source_items": [
+        "6762de0d39d4b4d4",
+        "48522bad9768fc95"
+      ],
+      "status": "open",
+      "created_at": "2026-08-18T11:13:35Z",
+      "origin": "AcadeResearch 9-company AI margin cross-section (2026-08-16)",
+      "author": "human"
+    }
+  ]
+}
