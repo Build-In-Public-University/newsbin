@@ -30,6 +30,18 @@ Minimal valid item:
 
 See `SCHEMA.md` for all fields and the provenance rules.
 
+## Pipeline
+
+Newsbin is stage one of a three-stage pipeline that turns raw news into
+falsifiable claims and then into Axiom formal commitments:
+
+```
+newsbin/data → claims/ledger.jsonl → Axiom
+```
+
+See `docs/PIPELINE.md` for the full description of the claims ledger
+(`claims/process.py`) and the Axiom formalization stage.
+
 ## Layout
 
 ```
