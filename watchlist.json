@@ -1,0 +1,13 @@
+{
+  "_comment": "Thesis-relevant watchlist. Tickers we care about for the Proximity to the Future Fund / HumanPower Index lens. Add symbols freely; the scanner fetches news for whatever is here.",
+  "tickers": [
+    {"symbol": "OPEN", "company": "Opendoor", "why": "case study 001 - operating turnaround thesis"},
+    {"symbol": "AI", "company": "C3.ai", "why": "AI transformation vendor"},
+    {"symbol": "PLTR", "company": "Palantir", "why": "AI deployment at enterprise scale"},
+    {"symbol": "MSFT", "company": "Microsoft", "why": "AI + enterprise productivity (human time saved)"},
+    {"symbol": "NVDA", "company": "NVIDIA", "why": "AI infrastructure"},
+    {"symbol": "CRM", "company": "Salesforce", "why": "AI agent productivity claims"},
+    {"symbol": "ADBE", "company": "Adobe", "why": "generative AI in creative workflows"},
+    {"symbol": "SHOP", "company": "Shopify", "why": "SMB AI tools / human time saved"}
+  ]
+}

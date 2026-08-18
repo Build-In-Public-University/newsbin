@@ -1,0 +1,15 @@
+# Never commit credentials
+.env
+*.key
+*.pem
+
+# Private raw archives and ledgers
+private/
+*.private.json
+*.private.jsonl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
