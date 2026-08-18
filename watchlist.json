@@ -14,6 +14,7 @@
     {"symbol": "DIS", "company": "Disney", "why": "AI across content/ops; streaming profitability"},
     {"symbol": "UBER", "company": "Uber", "why": "AI coding adoption vs overhead paradox"},
     {"symbol": "PARA", "company": "Paramount Skydance", "why": "tech-led merger integration; AI cost programs"},
-    {"symbol": "ACN", "company": "Accenture", "why": "AI services/consulting; enterprise deployment"}
+    {"symbol": "ACN", "company": "Accenture", "why": "AI services/consulting; enterprise deployment"},
+    {"symbol": "HOOD", "company": "Robinhood", "why": "Robinhood Chain Stock Tokens - tokenized equities / RWA supercycle; OPEN equity leg candidate"}
   ]
 }
