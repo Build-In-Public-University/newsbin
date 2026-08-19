@@ -1,0 +1,52 @@
+{
+  "instrument": "downstream_compression",
+  "parquet": "/Users/leoguinan/semantic-axis-v0/data/community_archive_global/enriched_tweets.parquet",
+  "window": [
+    "2025-01-01",
+    "2025-06-01"
+  ],
+  "sample": 30000,
+  "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+  "frame_threshold": 0.6,
+  "frame_definition": "semantic novelty >= threshold (1 - cos(reply,parent))",
+  "outcome": "target's own next reply length + info density, conditioned on framing status of last reply they received",
+  "label": "proxy_test_not_referent_measurement",
+  "buckets": {
+    "framed": {
+      "n": 11489,
+      "mean_len": 123.72008007659501,
+      "mean_density": 0.09542674239526323
+    },
+    "echo": {
+      "n": 3811,
+      "mean_len": 135.7176594069798,
+      "mean_density": 0.09461280653873368
+    },
+    "none": {
+      "n": 14700,
+      "mean_len": 140.39469387755102,
+      "mean_density": 0.09381086631119977
+    }
+  },
+  "threshold_sweep": {
+    "0.5": {
+      "comp_vs_none": -0.1027,
+      "comp_vs_echo": -0.0444,
+      "framed_n": 13398,
+      "echo_n": 1902
+    },
+    "0.6": {
+      "comp_vs_none": -0.1188,
+      "comp_vs_echo": -0.0884,
+      "framed_n": 11489,
+      "echo_n": 3811
+    },
+    "0.7": {
+      "comp_vs_none": -0.1286,
+      "comp_vs_echo": -0.0818,
+      "framed_n": 9171,
+      "echo_n": 6129
+    }
+  },
+  "run_at": "2026-08-19T13:24:36.693258Z"
+}
