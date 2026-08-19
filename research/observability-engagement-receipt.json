@@ -1,0 +1,219 @@
+{
+  "instrument": "observability_engagement_sim",
+  "label": "simulation_not_empirical_validation",
+  "n": 80,
+  "steps": 4000,
+  "seed": 42,
+  "models": [
+    "fanout",
+    "rank_bias"
+  ],
+  "rules": [
+    "frame_driven",
+    "connection",
+    "recency"
+  ],
+  "fanout_levels": [
+    0.02,
+    0.05,
+    0.15,
+    0.4,
+    1.0
+  ],
+  "rank_levels": [
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    20.0
+  ],
+  "frame_richness_bimodal": true,
+  "engagement_rules": {
+    "frame_driven": "retain sources that reduce processing cost (framed output)",
+    "connection": "retain pre-existing ties",
+    "recency": "retain whoever surfaced most (pure observability)"
+  },
+  "results": [
+    {
+      "rule": "frame_driven",
+      "model": "fanout",
+      "level": 0.02,
+      "rank_corr_frame_richness_to_influence": 0.9497
+    },
+    {
+      "rule": "frame_driven",
+      "model": "fanout",
+      "level": 0.05,
+      "rank_corr_frame_richness_to_influence": 0.9495
+    },
+    {
+      "rule": "frame_driven",
+      "model": "fanout",
+      "level": 0.15,
+      "rank_corr_frame_richness_to_influence": 0.9498
+    },
+    {
+      "rule": "frame_driven",
+      "model": "fanout",
+      "level": 0.4,
+      "rank_corr_frame_richness_to_influence": 0.9557
+    },
+    {
+      "rule": "frame_driven",
+      "model": "fanout",
+      "level": 1.0,
+      "rank_corr_frame_richness_to_influence": 0.9578
+    },
+    {
+      "rule": "frame_driven",
+      "model": "rank_bias",
+      "level": 0.5,
+      "rank_corr_frame_richness_to_influence": 0.5202
+    },
+    {
+      "rule": "frame_driven",
+      "model": "rank_bias",
+      "level": 1.0,
+      "rank_corr_frame_richness_to_influence": 0.7075
+    },
+    {
+      "rule": "frame_driven",
+      "model": "rank_bias",
+      "level": 2.0,
+      "rank_corr_frame_richness_to_influence": 0.8717
+    },
+    {
+      "rule": "frame_driven",
+      "model": "rank_bias",
+      "level": 5.0,
+      "rank_corr_frame_richness_to_influence": 0.9277
+    },
+    {
+      "rule": "frame_driven",
+      "model": "rank_bias",
+      "level": 20.0,
+      "rank_corr_frame_richness_to_influence": 0.9105
+    },
+    {
+      "rule": "connection",
+      "model": "fanout",
+      "level": 0.02,
+      "rank_corr_frame_richness_to_influence": 0.0259
+    },
+    {
+      "rule": "connection",
+      "model": "fanout",
+      "level": 0.05,
+      "rank_corr_frame_richness_to_influence": -0.0462
+    },
+    {
+      "rule": "connection",
+      "model": "fanout",
+      "level": 0.15,
+      "rank_corr_frame_richness_to_influence": -0.0929
+    },
+    {
+      "rule": "connection",
+      "model": "fanout",
+      "level": 0.4,
+      "rank_corr_frame_richness_to_influence": -0.0465
+    },
+    {
+      "rule": "connection",
+      "model": "fanout",
+      "level": 1.0,
+      "rank_corr_frame_richness_to_influence": 0.281
+    },
+    {
+      "rule": "connection",
+      "model": "rank_bias",
+      "level": 0.5,
+      "rank_corr_frame_richness_to_influence": 0.0524
+    },
+    {
+      "rule": "connection",
+      "model": "rank_bias",
+      "level": 1.0,
+      "rank_corr_frame_richness_to_influence": 0.2134
+    },
+    {
+      "rule": "connection",
+      "model": "rank_bias",
+      "level": 2.0,
+      "rank_corr_frame_richness_to_influence": -0.0412
+    },
+    {
+      "rule": "connection",
+      "model": "rank_bias",
+      "level": 5.0,
+      "rank_corr_frame_richness_to_influence": -0.1161
+    },
+    {
+      "rule": "connection",
+      "model": "rank_bias",
+      "level": 20.0,
+      "rank_corr_frame_richness_to_influence": -0.0668
+    },
+    {
+      "rule": "recency",
+      "model": "fanout",
+      "level": 0.02,
+      "rank_corr_frame_richness_to_influence": -0.0426
+    },
+    {
+      "rule": "recency",
+      "model": "fanout",
+      "level": 0.05,
+      "rank_corr_frame_richness_to_influence": -0.1651
+    },
+    {
+      "rule": "recency",
+      "model": "fanout",
+      "level": 0.15,
+      "rank_corr_frame_richness_to_influence": 0.0418
+    },
+    {
+      "rule": "recency",
+      "model": "fanout",
+      "level": 0.4,
+      "rank_corr_frame_richness_to_influence": 0.1553
+    },
+    {
+      "rule": "recency",
+      "model": "fanout",
+      "level": 1.0,
+      "rank_corr_frame_richness_to_influence": 0.007
+    },
+    {
+      "rule": "recency",
+      "model": "rank_bias",
+      "level": 0.5,
+      "rank_corr_frame_richness_to_influence": 0.0921
+    },
+    {
+      "rule": "recency",
+      "model": "rank_bias",
+      "level": 1.0,
+      "rank_corr_frame_richness_to_influence": 0.069
+    },
+    {
+      "rule": "recency",
+      "model": "rank_bias",
+      "level": 2.0,
+      "rank_corr_frame_richness_to_influence": 0.1142
+    },
+    {
+      "rule": "recency",
+      "model": "rank_bias",
+      "level": 5.0,
+      "rank_corr_frame_richness_to_influence": 0.1496
+    },
+    {
+      "rule": "recency",
+      "model": "rank_bias",
+      "level": 20.0,
+      "rank_corr_frame_richness_to_influence": 0.0441
+    }
+  ],
+  "run_at": "2026-08-19T12:46:05.373692Z"
+}
