@@ -1,0 +1,27 @@
+{
+  "instrument": "semantic_frame_propagation",
+  "parquet": "/Users/leoguinan/semantic-axis-v0/data/community_archive_global/enriched_tweets.parquet",
+  "window": [
+    "2025-01-01",
+    "2025-06-01"
+  ],
+  "sample": 40000,
+  "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+  "frame_definition": "semantic_novelty = 1 - cos(embed(reply), embed(parent))",
+  "frame_threshold": 0.5,
+  "outcome": "target replies to a different future tweet by replier",
+  "label": "proxy_test_not_referent_measurement",
+  "framed": {
+    "n": 25785,
+    "propagated": 9603
+  },
+  "echo": {
+    "n": 7813,
+    "propagated": 3273
+  },
+  "framed_rate": 0.3724258289703316,
+  "echo_rate": 0.4189171892998848,
+  "lift": -0.11097983448053747,
+  "verdict": "does NOT support (falsifier on proxy)",
+  "run_at": "2026-08-19T13:03:15.512887Z"
+}
