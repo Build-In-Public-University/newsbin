@@ -1,0 +1,26 @@
+{
+  "instrument": "archive_frame_propagation",
+  "parquet": "/Users/leoguinan/semantic-axis-v0/data/community_archive_global/enriched_tweets.parquet",
+  "window": [
+    "2025-01-01",
+    "2026-06-01"
+  ],
+  "min_replies": 3,
+  "frame_threshold": 0.5,
+  "frame_definition": "novelty_ratio = new content words in reply / reply content words",
+  "outcome": "target replies to a different future tweet by replier",
+  "label": "proxy_test_not_referent_measurement",
+  "framed": {
+    "n": 178390,
+    "propagated": 115182
+  },
+  "echo": {
+    "n": 2815,
+    "propagated": 1988
+  },
+  "framed_rate": 0.6456752060093055,
+  "echo_rate": 0.7062166962699823,
+  "lift": -0.08572650658139092,
+  "verdict": "does NOT support (falsifier on proxy)",
+  "run_at": "2026-08-19T12:16:37.938520Z"
+}
