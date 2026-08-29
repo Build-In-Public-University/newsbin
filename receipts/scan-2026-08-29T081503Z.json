@@ -1,0 +1,9 @@
+{
+  "run_at": "2026-08-29T08:15:03Z",
+  "source": "yahoo_rss",
+  "watchlist_size": 15,
+  "fetched": 45,
+  "new_items": 34,
+  "dedup_against": 323,
+  "fetch_failures": []
+}
